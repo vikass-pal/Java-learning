@@ -4,4 +4,5 @@ public class JavaBasic {
 
         System.out.print("Hello vikas!");
     }
+    
 } 
