@@ -1,4 +1,4 @@
-public class invertedPrymid {
+public class invertedPyramidstar {
 
     public static void inverted_pyramid(int n) {
         // outer
