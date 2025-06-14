@@ -16,3 +16,10 @@ public class zero1triangle {
         zero_one_triangle(5);
     }
 }
+
+
+// 1
+// 01
+// 101
+// 0101
+// 10101
