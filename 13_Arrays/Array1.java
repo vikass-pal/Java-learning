@@ -26,6 +26,7 @@ public class Array1 {
         marks[1] = 100;
         System.out.println("Updated chem marks: " + marks[1]);
         // or
+        
         marks[2] = marks[2] + 10;
         System.out.println("Updated math marks: " + marks[2]);
 
