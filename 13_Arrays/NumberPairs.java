@@ -1,5 +1,4 @@
 public class NumberPairs {
-
     public static void printPairs(int numbers[]) {
         int totalPairs = 0;
         for(int i = 0; i<numbers.length;i++) {
