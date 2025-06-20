@@ -7,6 +7,7 @@ public class buyAndSellStocks {
         if(buyPrice < prices[i]) {
             int profit = prices[i] - buyPrice;
             maxProfit = Math.max(maxProfit, profit);
+            
         } else {
             buyPrice = prices[i];
         }

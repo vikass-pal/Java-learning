@@ -27,6 +27,7 @@ public class Maxsubarrayprefix {
         
         }
         System.out.println("Maximum subarray sum is: " + maxSum);
+        
     }
 
     public static void main(String[] args) {
