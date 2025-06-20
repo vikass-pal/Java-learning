@@ -6,7 +6,6 @@ public class Arrayinfunction {
         nonchangeable = nonchangeable + 10;
          // This won't affect the original variable in main
     }
-    
     public static void main(String[] args) {
         int marks[] = {95,90,31};
         int nonchangeable = 5;
