@@ -33,3 +33,7 @@ public class functionOverloadingexamp {
     
     
 } 
+
+// Output:
+// 5
+// 5.4
