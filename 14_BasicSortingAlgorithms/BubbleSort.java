@@ -1,5 +1,4 @@
 public class BubbleSort {
-
     public static void bubbleSort(int arr[]) {
         for(int turn = 0;turn<arr.length-1;turn++){
             for(int j = 0; j<arr.length-1-turn;j++) {
@@ -24,3 +23,6 @@ public class BubbleSort {
         printArr(arr);
     }
 }
+
+// Output: 1 2 3 4 5 8
+// Time Complexity: O(n^2)
