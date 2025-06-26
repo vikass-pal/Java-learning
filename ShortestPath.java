@@ -1,7 +1,6 @@
 public class ShortestPath {
     public static float shortans(String path) {
         int x=0, y=0;
-
         for(int i= 0;i<path.length();i++) {
             char dir = path.charAt(i);
             // south
