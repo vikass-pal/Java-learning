@@ -11,20 +11,16 @@ class Question2 {
             }
         }
         return arr;
-        
     }
     public static void printarr(int arr[]) {
             for(int i=0;i<arr.length;i++) {
                 System.out.println("arr =" + arr[i]);
             }
         }
-
     public static void main(String args []) {
         int arr[] = {5,2,3,1};
         Question2 q = new Question2();
         q.sortArray(arr);
         printarr(arr);
-
-
     }
 }
