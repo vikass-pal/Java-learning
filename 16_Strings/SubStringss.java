@@ -10,7 +10,7 @@ public class SubStringss {
     public static void main(String[] args) {
         String str = "HELLOWORLD";
         // Shortcut/
-       System.out.println(str.substring(0, 4));
+    //    System.out.println(str.substring(0, 4));
         System.out.println( subStr(str, 0, 4));
         
     }
