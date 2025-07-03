@@ -12,9 +12,6 @@ public class Solutions {
                  arr[prev + 1] = curr;
                 
             }
-           
-            
-        
     }
     public static void printarr(int arr[]) {
             for(int i=0;i<arr.length;i++) {
@@ -28,8 +25,5 @@ public class Solutions {
         Solutions q = new Solutions();
         sortArray(arr);
         printarr(arr);
-        
-
-
     }
 } 

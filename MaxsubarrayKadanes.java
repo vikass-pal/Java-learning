@@ -13,9 +13,8 @@ public class MaxsubarrayKadanes {
         }
         System.out.println("Current sum: " + cs);
     }
-
     public static void main(String[] args) {
-        int numbers[] = {-1,-6,-3};
+        int numbers[] = {5,4,-1,7,8};
         kadanesAlgorithm(numbers);
 
     }
