@@ -14,6 +14,9 @@ public class friendPairingproblem {
         // total ways
         int totalWays = pairways + fnm1;
         return totalWays;
+
+        // short 
+        // return friendPair(n - 1) + (n - 1) * friendPair(n - 2);
     }
     public static void main(String[] args) {
         System.out.println(friendPair(3));
