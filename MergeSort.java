@@ -33,7 +33,7 @@ public class MergeSort {
                     j++; k++;
                 }
             }
-            // left par
+            // left part
             while(i<=mid) {
                 temp[k++] = arr[i++];
             }
