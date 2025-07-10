@@ -57,6 +57,6 @@ public class NQueens1 {
             }
         }
         NQueen(board, 0);
-        // printBoard(board);
+        
     }
 }
