@@ -1,9 +1,8 @@
-public class NQueens1 {
+public class NQueens2 {
     public static void NQueen(char board[][], int row) {
         // base case
         if(row == board.length) {
-            printBoard(board);
-            // count++;
+            count++;
             return;
         }
 
@@ -40,7 +39,7 @@ public class NQueens1 {
         return true;
 
     }
-   
+    static int count = 0;
 
     public static void printBoard(char board[][]) {
         System.out.println("--------chess---------");
@@ -60,7 +59,7 @@ public class NQueens1 {
             }
         }
         NQueen(board, 0);
-        // System.out.println("Total solutions: " + count);
+        System.out.println("Total solutions: " + count);
         
     }
 }
