@@ -12,10 +12,12 @@ public class HeadTail {
     }
     public static Node head;
     public static Node tail;
+    public static int size;
 
     public void addFirst(int data) {
         // step 1
         Node newNode = new Node(data);
+        size++;
 // if my linked list is empty
         if(head == null) {
             head = tail = newNode;
@@ -28,6 +30,7 @@ public class HeadTail {
     }
 
     public void addLast(int data) {
+        size++;
         Node newNode = new Node(data);
         if(head == null) {
             head = tail = newNode;
@@ -36,20 +39,7 @@ public class HeadTail {
         tail.next = newNode;
         tail = newNode;
     }
-     
-    // public void add(int idx, int data) {
-    //     Node newNode = new Node(data);
-    //     Node temp = head;
-    //     int i = 0;
-
-    //     while(i < idx -1) {
-    //         temp = temp.next;
-    //         i++;
-    //     }
-
-    //     newNode.next = temp.next;
-    //     temp.next = newNode;
-    // }
+    //  add in middle
 
     public void add(int idx, int data) {
         if(idx == 0) {
@@ -57,6 +47,7 @@ public class HeadTail {
             return;
         }
         Node newNode = new Node(data);
+        size++;
         Node temp = head;
         int i = 0;
 
@@ -84,6 +75,9 @@ public class HeadTail {
        System.out.println("empty");
     }
 
+    // size
+
+
     public static void main(String[] args) {
         HeadTail ll = new HeadTail();
         
@@ -96,7 +90,7 @@ public class HeadTail {
        ll.addLast(4);
        ll.add(2, 9);
        ll.print();
-
+        System.out.println(ll.size);
         
     }
 }
