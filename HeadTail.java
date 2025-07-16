@@ -115,7 +115,7 @@ public class HeadTail {
 
     }
 
-    // search a target in LL
+    // search a target in LL O(n)
 
     public int itrSearch(int key) {
         Node temp = head;
@@ -129,6 +129,26 @@ public class HeadTail {
             i++;
         }
         return -1; 
+    }
+
+    // recursion(to get key) O(n)
+    public int helper(Node head, int key) {
+        if(head == null) {
+            return -1;
+        }
+        if(head.data == key) {
+            return 0;
+        }
+        int idx = helper(head.next,key);
+            if(idx == -1) {
+                return -1;
+            }
+            return idx+1;
+        
+    }
+
+    public int recSearch(int key) {
+        return helper(head, key);
     }
 
     public static void main(String[] args) {
@@ -149,8 +169,8 @@ public class HeadTail {
     //   ll.removeLast();
     //   ll.print();
 
-    System.out.println(ll.itrSearch(3));
-    System.out.println(ll.itrSearch(9));
+    System.out.println(ll.recSearch(3));
+    System.out.println(ll.recSearch(10));
 
 
         
