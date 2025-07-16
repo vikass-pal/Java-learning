@@ -69,7 +69,7 @@ public class HeadTail {
         // }
        Node temp = head;
        while(temp != null) {
-        System.out.print(temp.data + "-> ");
+        System.out.print(temp.data + "->");
         temp = temp.next;
        } 
        System.out.print("empty");
@@ -147,6 +147,46 @@ public class HeadTail {
         
     }
 
+    public void reverse() { //O(n)
+        Node prev = null;
+        Node curr = tail = head;
+        Node next;
+        while(curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
+
+    public void deleteNthFromEnd(int n) {
+        // calculate size
+        int sz = 0;
+        Node temp = head;
+        while(temp != null) {
+            temp = temp.next;
+            sz++;
+        }
+        if(n == sz) {
+            head = head.next;
+            return ;
+        }
+        // main shit
+
+        int i=1;
+        int iToFind = sz-n;
+        Node prev = head;
+        while(i < iToFind) {
+            prev = prev.next;
+            i++;
+        }
+
+        prev.next = prev.next.next;
+        return;
+
+    }
+
     public int recSearch(int key) {
         return helper(head, key);
     }
@@ -161,17 +201,19 @@ public class HeadTail {
        ll.addLast(3);
        
        ll.addLast(4);
-       ll.add(2, 9);
+    //    ll.add(2, 9);
     //    ll.print();
     //  ll.removeFirst();
     
-     ll.print();
+    //  ll.print();
     //   ll.removeLast();
-    //   ll.print();
+      ll.print();
 
-    System.out.println(ll.recSearch(3));
-    System.out.println(ll.recSearch(10));
-
+    // System.out.println(ll.recSearch(3));
+    // System.out.println(ll.recSearch(10));
+        // ll.reverse();
+        ll.deleteNthFromEnd(3);
+        ll.print();
 
         
     }
