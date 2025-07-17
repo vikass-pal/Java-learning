@@ -187,6 +187,17 @@ public class HeadTail {
 
     }
 
+    public Node findMid(Node head) {
+        Node slow = head;
+        Node fast = head;
+
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow; //At slow ill have my mid
+    }
+
     public int recSearch(int key) {
         return helper(head, key);
     }
@@ -212,7 +223,7 @@ public class HeadTail {
     // System.out.println(ll.recSearch(3));
     // System.out.println(ll.recSearch(10));
         // ll.reverse();
-        ll.deleteNthFromEnd(3);
+        // ll.deleteNthFromEnd(3);
         ll.print();
 
         
