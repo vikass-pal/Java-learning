@@ -198,6 +198,40 @@ public class HeadTail {
         return slow; //At slow ill have my mid
     }
 
+    public boolean checkPalindrome() {
+        if(head == null || head.next == null) {
+            return true;
+        }
+        // step1 - find mid
+        Node midNode = findMid(head);
+
+        // step2- reverse 2nd half
+        Node prev = null;
+        Node curr = midNode;
+        Node next;
+
+        while(curr != null) {
+            next = curr.next;
+            curr.next =prev ;
+            prev = curr;
+            curr = next;
+        }
+
+        Node right = prev;
+        Node left = head;
+        // step 3- compare left and right
+        while(right != null) {
+            if(left.data != right.data) {
+                return false;
+            } 
+                left = left.next;
+                right = right.next;
+                
+            
+        }
+        return true;
+    }
+
     public int recSearch(int key) {
         return helper(head, key);
     }
@@ -209,9 +243,9 @@ public class HeadTail {
        
        ll.addFirst(1);
        
-       ll.addLast(3);
+       ll.addLast(2);
        
-       ll.addLast(4);
+    //    ll.addLast(1);
     //    ll.add(2, 9);
     //    ll.print();
     //  ll.removeFirst();
@@ -224,7 +258,8 @@ public class HeadTail {
     // System.out.println(ll.recSearch(10));
         // ll.reverse();
         // ll.deleteNthFromEnd(3);
-        ll.print();
+        // ll.print();
+        System.out.println(ll.checkPalindrome());
 
         
     }
