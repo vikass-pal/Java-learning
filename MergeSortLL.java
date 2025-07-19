@@ -13,7 +13,6 @@ public class MergeSortLL {
     public static Node head;
     public static Node tail;
     public static int size;  
-
       public void print() {
         // if(head == null) {
         //     System.out.println("Empty");
