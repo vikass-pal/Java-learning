@@ -34,7 +34,7 @@ public class zigZagLL {
             prev = curr;
             curr = next;
         }
-
+ // alternate merge(zig zag merge) 
         Node left = head;
         Node right = prev;
         Node nextL,nextR;
@@ -49,7 +49,7 @@ public class zigZagLL {
             right = nextR;
         }
 
-        // alternate merge(zig zag merge) 
+       
     }
 
 
