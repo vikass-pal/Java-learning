@@ -55,7 +55,6 @@ public class removeCycle {
         }
         // remove cycle -> last.next = null;
         prev.next = null;
-
     }
      public static void main(String[] args) {
         head = new Node(1);
