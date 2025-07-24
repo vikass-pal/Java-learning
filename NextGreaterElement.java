@@ -18,6 +18,12 @@ public class NextGreaterElement {
             }
             // push in s
             s.push(i);
+
+           
         }
+         for(int i = 0; i< nextGreater.length;i++) {
+                System.out.print(nextGreater[i]+" ");
+            }
+            System.out.println();
     }
 }
