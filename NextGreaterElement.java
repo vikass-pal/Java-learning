@@ -12,7 +12,7 @@ public class NextGreaterElement {
             }
             if(s.isEmpty()) {
                 nextGreater[i] = -1;
-
+ 
             } else{
                 nextGreater[i] = arr[s.peek()];
             }
