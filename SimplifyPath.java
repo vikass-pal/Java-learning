@@ -4,7 +4,6 @@ public class SimplifyPath {
     public String simplifyPath(String path) {
         String arr[] = path.split("/");
         Stack<String> stack = new Stack<>();
-
         for(String i : arr) {
             if(i.equals("..") && !stack.isEmpty()) {
                 stack.pop();
