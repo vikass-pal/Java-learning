@@ -12,5 +12,6 @@ public class DequeIntro {
         System.out.println("First"+deque.getFirst());
         System.out.println("Last"+deque.getLast());
          System.out.println(deque);
+         
     }
 }
