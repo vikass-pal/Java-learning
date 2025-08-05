@@ -14,6 +14,6 @@ public class DequeIntro {
         System.out.println("Last"+deque.getLast());
          System.out.println(deque);
          
-
+ 
     }
 }
