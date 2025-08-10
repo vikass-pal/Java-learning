@@ -10,7 +10,6 @@ public class StaticKeywordd {
 
     } 
 }
-
 class Student {
     String name;
     int roll;
