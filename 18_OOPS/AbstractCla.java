@@ -17,13 +17,11 @@ abstract class Animal {
     }
     abstract void walk();
 }
-
 class Horse extends Animal {
     void walk() {
         System.out.println("Horse is walking..4.");
     }
 }
-
 class Chicken extends Animal {
     void walk() {
         System.out.println("Chicken is walking..2.");
