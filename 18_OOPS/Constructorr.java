@@ -8,7 +8,6 @@ public class Constructorr {
         System.out.println("Student name: " + s1.name);
     } 
 }
-
 class Student {
     String name;
     int roll;
@@ -19,7 +18,7 @@ class Student {
         this.name = s1.name;
         this.roll = s1.roll;
     }
-//  paramerterized constrictor
+//  paramerterized constructor
     Student(String name) {
         this.name = name;
     }
