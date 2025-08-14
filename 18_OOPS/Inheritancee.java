@@ -32,7 +32,6 @@ class Fish extends Animal {
 class Mammal extends Animal {
     int legs;
 }
-
 class Dog extends Mammal {
     String breed;
 }
