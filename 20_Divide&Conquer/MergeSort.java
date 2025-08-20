@@ -37,12 +37,10 @@ public class MergeSort {
             while(i<=mid) {
                 temp[k++] = arr[i++];
             }
-
             // right part
             while(j<=ei) {
                 temp[k++] = arr[j++];
             }
-
             for(k=0,i = si; k<temp.length;k++,i++){
                 arr[i] = temp[k];
             }
