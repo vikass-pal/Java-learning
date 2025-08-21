@@ -61,6 +61,5 @@ public class NQueens1 {
         }
         NQueen(board, 0);
         // System.out.println("Total solutions: " + count);
-        
     }
 }
