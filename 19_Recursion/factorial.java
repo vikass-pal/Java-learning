@@ -7,6 +7,7 @@ public class factorial {
         int fn = n * fact1;
         return fn;
     }
+    
     public static void main(String[] args) {
         int n = 5;
         int result = fact(n);
