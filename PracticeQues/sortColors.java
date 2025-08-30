@@ -1,11 +1,13 @@
+
+package PracticeQues;
+
 public class sortColors {
-    class Solution {
+
     private void swap(int[] arr, int pos1, int pos2) {
         int temp = arr[pos1];
         arr[pos1] = arr[pos2];
         arr[pos2] = temp;
     }
-
     public void sortColors(int[] nums) {
         int start = 0;
         int mid = 0;
@@ -29,5 +31,5 @@ public class sortColors {
         }
 
     }
-}
+
 }
