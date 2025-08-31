@@ -1,3 +1,7 @@
+package PracticeQues;
+
+import java.util.Arrays;
+
 public class findDuplicate {
    
     public int findDuplicate(int[] nums) {
