@@ -1,5 +1,4 @@
 
-package PracticeQues;
 
 public class sortColors {
 
