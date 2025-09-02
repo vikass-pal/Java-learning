@@ -3,7 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class fourSum {
-  
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n = nums.length;
         List<List<Integer>> ans = new ArrayList<>();
