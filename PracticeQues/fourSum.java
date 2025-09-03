@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 public class fourSum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n = nums.length;
@@ -32,7 +31,6 @@ public class fourSum {
                     }
                 }
             }
-
         }
         return ans;
     }
