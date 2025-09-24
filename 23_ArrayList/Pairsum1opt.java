@@ -7,7 +7,6 @@ public class Pairsum1opt {
     public static boolean pairSum(ArrayList<Integer> list, int target) {
         int lp = 0;
         int rp = list.size()-1;
-
         while(lp!=rp) {
             // case 1
             if(list.get(lp) + list.get(rp) == target ) {
