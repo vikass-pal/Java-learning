@@ -28,7 +28,7 @@ public class Hashmapp {
         System.out.println(hm); 
 
         // size
-        System.out.println(hm.size());
+        System.out.println(hm.size()); 
     }
     
 }
