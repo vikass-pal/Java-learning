@@ -4,10 +4,9 @@ import java.util.Set;
 public class iterationOnHash {
     public static void main(String args[])
      {
-        // create
+
         HashMap<String,Integer> hm = new HashMap<>();
 
-        // insert
         hm.put("India", 120);
         hm.put("US", 30);
         hm.put("China", 150);
