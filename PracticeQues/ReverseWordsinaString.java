@@ -25,3 +25,10 @@ class Solution {
         return sb.toString();
     }
 }
+
+// s =
+// "the sky is blue"
+// Output
+// "blue is sky the"
+// Expected
+// "blue is sky the"
