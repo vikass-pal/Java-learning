@@ -16,7 +16,6 @@ public class Hashmapp {
         // get
         int population = hm.get( "India");
         System.out.println(population); 
-
         System.out.println(hm.get("Indonesia"));
 
         // contains key
