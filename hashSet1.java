@@ -11,6 +11,5 @@ public class hashSet1 {
          System.out.println(set.contains(2));
         set.remove(2);
         System.out.println(set);
-        
     }
 }
