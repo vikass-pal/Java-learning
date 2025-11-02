@@ -4,7 +4,6 @@ public class MinimumSizeSubarraySum {
         int start = 0;
         int minLen = Integer.MAX_VALUE;
         int sum = 0;
-
         for (int end = 0; end < nums.length; end++) {
             sum += nums[end];
 
@@ -14,7 +13,6 @@ public class MinimumSizeSubarraySum {
                 start++;
             }
         }
-
         return (minLen == Integer.MAX_VALUE) ? 0 : minLen;
     }
 }
