@@ -1,5 +1,4 @@
 public class MinimumSizeSubarraySum {
-   
     public int minSubArrayLen(int target, int[] nums) {
         int start = 0;
         int minLen = Integer.MAX_VALUE;
