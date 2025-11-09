@@ -6,7 +6,6 @@ public class Solution {
         int left = 0;
         long currSum = 0;
         long maxSum = 0;
-
         for (int i = 0; i < nums.length; i++) {
             while (set.contains(nums[i]) || set.size() == k) {
                 set.remove(nums[left]);
