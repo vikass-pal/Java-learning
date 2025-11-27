@@ -1,5 +1,5 @@
-class Solution {
-    public String longestPalindrome(String s) {
+class longestPalindrome {
+    public String longestPalindromee(String s) {
         if (s.length() <= 1) {
             return s;
         }
@@ -8,7 +8,6 @@ class Solution {
         for (int i = 1; i < s.length(); i++) {
             int low = i;
             int high = i;
-
             while (s.charAt(low) == s.charAt(high)) {
                 low--;
                 high++;
