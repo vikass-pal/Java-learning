@@ -10,5 +10,6 @@ class isSequence {
                 j++;
             }}
         return (i == s.length());
+    
     }
 }
