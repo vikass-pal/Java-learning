@@ -8,8 +8,7 @@ class isSequence {
                 j++;
             } else {
                 j++;
-            }
-        }
+            }}
         return (i == s.length());
     }
 }
