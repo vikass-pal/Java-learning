@@ -4,7 +4,9 @@ class FindPivotIndex {
         for (int num : nums) {
             totalSum += num;
         }
+
         int leftmost = 0;
+        
         for (int i = 0; i < nums.length; i++) {
             int rightmost = totalSum - leftmost - nums[i];
             if (leftmost == rightmost) {
