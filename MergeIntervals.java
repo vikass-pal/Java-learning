@@ -19,7 +19,7 @@ public class MergeIntervals {
         return Arrays.copyOfRange(res, 0, e + 1);
     }
 
-
+// 2nd method (easier to understand)
 // class Solution {
 //     public int[][] merge(int[][] intervals) {
         
