@@ -1,5 +1,4 @@
 public class 3Sum {
-
     public List<List<Integer>> threeSum(int[] nums) {
         HashSet<List<Integer>> set = new HashSet<>();
         Arrays.sort(nums);
