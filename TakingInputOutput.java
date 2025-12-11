@@ -31,6 +31,9 @@ public class TakingInputOutput {
 //         arr[i] = num;
 //         arr.add(num);
 //     }
+// for(int a : arr) {
+//         System.out.print(a + " ");
+// }
 //     sc.close();
 //     }
     
