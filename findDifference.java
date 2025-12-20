@@ -15,12 +15,7 @@ public class findDifference {
                 return ch2;
             }
         }
-        // for (int i = 0; i < t.length(); i++) {
-        //     char ch = t.charAt(i);
-        //     if (map.get(ch) == 1) {
-        //         return ch;
-        //     }
-        // }
+
         return ' ';
     }
 }
