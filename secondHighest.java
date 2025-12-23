@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class secondHighest {
-    class Solution {
+    
     public int secondHighest(String s) {
         HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
@@ -18,4 +18,4 @@ public class secondHighest {
         return arr[arr.length - 2];
     }
 }
-}
+
