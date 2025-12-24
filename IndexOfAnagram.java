@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class IndexOfAnagram {
-    class Solution {
+    
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
         HashMap<Character, Integer> map1 = new HashMap<>();
@@ -31,4 +31,4 @@ public class IndexOfAnagram {
         return result;
     }
 }
-}
+
