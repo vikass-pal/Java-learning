@@ -31,6 +31,7 @@ public class maxSum {
         int[] arrr = new int[list.size()];
         for(int i=0;i<list.size();i++){
             arrr[i] = list.get(i);
+            
         }
         return arrr;
     }
