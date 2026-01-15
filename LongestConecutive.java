@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class LongestConecutive {
-    class Solution {
+
     public int longestConsecutive(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
         int count = 0;
@@ -27,4 +27,4 @@ public class LongestConecutive {
         return maxCount;
     }
 }
-}
+
