@@ -16,4 +16,7 @@ public class student {
     
     this.name = name;
    }
+   public student() {
+    this.age = 10;
+   } //default constructor or custom constructor
 }
