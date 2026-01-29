@@ -1,6 +1,6 @@
 package interfaces.devices;
 
 public interface phone {
-    void call();
+    void call(int number);
     void endcall();
 }

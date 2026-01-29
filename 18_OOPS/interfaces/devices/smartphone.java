@@ -19,7 +19,7 @@ public class smartphone implements camera,music,phone {
         
     }
      @Override
-    public void call() {
+    public void call(int number) {
         
     }
      @Override
