@@ -11,13 +11,25 @@ public class classessandObj {
 
         pen p1 = new pen(); 
         p1.setColor("blue"); 
-        System.out.println(p1.color);
+        System.out.println(p1.getColor());
+        p1.setTip(5);
+        System.out.println(p1.getTip());
+
+        // BankAccount acc = new BankAccount();
+        // acc.username = "viks";
     }
 }
 
 class pen{
-    String color;
-    int tip;
+    private String color;
+    private int tip;
+
+    String getColor() {
+        return this.color;
+    }
+    int getTip() {
+        return this.tip;
+    }
 
     void setColor(String newColor) {
         color = newColor;
@@ -37,3 +49,13 @@ class student{
         percentage = (phy+math+chem) /3;
     }
 }
+
+// class BankAccount{
+//     public String username;
+//     private String password;
+//     public void setPass(String pwd) {
+//         password = pwd;
+//     }
+// }
+
+
