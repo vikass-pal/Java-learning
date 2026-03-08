@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.animals;
 
 public interface Animal {
     public int maxage = 50;

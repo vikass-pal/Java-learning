@@ -4,7 +4,7 @@
     // even though the method 
     // might be the same;
 
-    // this is compile time polymorphism//overloading
+    //  this is compile time polymorphism//overloading
     public int add(int a,int b) {
         return a+b;
     }
