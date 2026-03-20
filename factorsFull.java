@@ -16,9 +16,10 @@ public class factorsFull{
 
     public static int[] factor(int a) {
        ArrayList<Integer> list = new ArrayList<>();
-        for(int i=1;i<=a;i++) {
+        for(int i=2;i*i<=a;i++) {
             if(a%i == 0) {
                 list.add(i);
+                a = a/10;
             }
         }
         // if(a > 1){
