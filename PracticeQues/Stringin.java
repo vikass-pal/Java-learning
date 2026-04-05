@@ -24,3 +24,37 @@ if (!input.isEmpty()) {
     System.out.println(arr);
    }
 }
+
+
+abstract class shape {
+ abstract void area();
+}
+
+class circle extends shape{
+void area() {
+    print("area of circle")
+}
+} 
+class rectangle extends shape{
+    void area() {
+        print("area of rectange")
+    }
+    
+}
+
+
+interface Driveable{
+    void drive();
+}
+
+class Car implements Driveable{
+    public void drive() {
+        System.out.print("Car drive");
+    }
+}
+
+class Bike implements Driveable{
+    public void drive() {
+        System.out.print("bike drive");
+    }
+}
