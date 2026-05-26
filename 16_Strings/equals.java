@@ -10,7 +10,6 @@ public class equals {
         else{
             System.out.println("they are not equal");
         }
-
         if(s1 == s3) {
             System.out.println("they are eqal");
         }
