@@ -19,7 +19,6 @@ public class ShortestPath {
             else {
                 x++;
             }
-
         }
         int X2 = x*x;
         int Y2 = y*y;
