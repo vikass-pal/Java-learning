@@ -8,7 +8,7 @@ public class ithbit {
             return 1;
         }
     }
-    public static void main(String[] args) {
+public static void main(String[] args) {
         System.out.println(getithbit(10, 1)); 
     }
 }
