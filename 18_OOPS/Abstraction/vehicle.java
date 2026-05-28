@@ -4,4 +4,6 @@ public class vehicle {
     public abstract void accelerate();
     public abstract void decelerate();
     public abstract void brake();
+
+    
 }
