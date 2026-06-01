@@ -4,7 +4,6 @@ public class RotatedArray {
             return -1;
         }
         int mid = si + (ei-si) / 2;
-
         if(arr[mid] == target) {
             return mid;
         }
