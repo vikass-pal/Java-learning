@@ -22,7 +22,6 @@ public class primeNoOfSetBits {
         return true;
     }
 }
-
 }
 
 // Given two integers left and right, return the count of numbers in the inclusive range [left, right] having a prime number of set bits in their binary representation.
