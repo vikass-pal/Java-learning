@@ -6,7 +6,6 @@ public class MergeSort {
         }
         System.out.println();
     }
-    
     public static void mergeSort(int arr[], int si, int ei) {
         // base case
         if(si >= ei) {
