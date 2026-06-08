@@ -33,7 +33,6 @@ public class fruitInBasket {
 // Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
 // Given the integer array fruits, return the maximum number of fruits you can pick.
 
- 
 
 // Example 1:
 
