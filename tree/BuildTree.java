@@ -23,16 +23,14 @@ public class BuildTree{
 
             return newNode; 
 
-            public static void preorder(Node root) {
-                if(root == null) {
-                   return; 
-                }
-                system.out.print(root.data+" ");
-                preorder(root.left);
-                preorder(root.right);
+        }
+        public static void preorder(root) {
+            if(root == null) {
+                return;
             }
-
-
+            System.out.println(root.data+" ");
+            preorder(root.left);
+            preorder(root.right);
         }
     }
 
