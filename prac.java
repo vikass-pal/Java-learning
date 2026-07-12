@@ -16,4 +16,12 @@ public class prac {
     }
     System.out.print(rev);
    }
+
+   public static void main(String[] args) {
+    String[] arr = sc.nextLine().split("\\s+");
+    ArrayList<Integer> list = new ArrayList<>();
+    for(String s: arr) {
+       list.add(Integer.parseInt(s)); 
+    }
+   }
 }
