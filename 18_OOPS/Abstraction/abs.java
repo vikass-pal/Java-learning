@@ -8,3 +8,17 @@ public class abs {
         dog.sayHello();
     }
 }
+
+public class dog{
+    int id;
+    String name;
+
+    class dog() {
+        
+    }
+
+}
+
+public static void main(String[] args) {
+    dog d1 = new dog;
+}
