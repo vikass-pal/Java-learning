@@ -16,7 +16,6 @@ public class moveZeros{
                 nums[i] = nums[start];
                 nums[start]= temp; 
                 start++;
-
             }
         }
         return nums;
