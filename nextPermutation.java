@@ -25,7 +25,6 @@ class Solution {
         }
     }
 }
-
 // 31. Next Permutation
 // Solved
 // Medium
