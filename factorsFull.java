@@ -24,6 +24,8 @@ public class factorsFull{
         // if(a > 1){
         //     list.add(a);
         // }
+
+        
         int[] res = new int[list.size()];
         for(int i=0;i<list.size();i++) {
             res[i] = list.get(i);
