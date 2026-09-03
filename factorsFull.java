@@ -13,7 +13,6 @@ public class factorsFull{
             System.out.println(result[i]+" ");
         }
     }
-
     public static int[] factor(int a) {
        ArrayList<Integer> list = new ArrayList<>();
         for(int i=2;i*i<=a;i++) {
